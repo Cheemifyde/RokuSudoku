@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="review_screen" extends="Group">
+  <interface>
+    <field id="review_finished" type="string" alwaysnotify = "true" alias = "review_video.state"  />
+    <field id="review_selected" type="assocarray" alias="review_row.itemSelected" onChange="onItemSelect" />
+    <field id="selected_review_content" type="string" />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/screens/review_screen.brs" />
+  <children>
+   <Video
+        id="review_video"
+        visible="false"
+        translation="[0,0]"
+        width="1920"
+        height="1080"
+        enableUI = "false" />
+   <RowList 
+      id = "review_row" 
+      translation = "[ -10, -50 ]" 
+      itemComponentName = "ReviewSelectItem" 
+      numRows = "1" 
+      itemSize = "[ 1997, 1123 ]" 
+      rowItemSize = "[ [1997, 1123] ]" 
+      itemSpacing = "[ 0, 0 ]" 
+      showRowLabel = "[ true ]" 
+      drawFocusFeedback = "true" 
+      vertFocusAnimationStyle = "fixedFocusWrap" 
+      rowFocusAnimationStyle = "fixedFocusWrap" />
+  </children>
+</component>

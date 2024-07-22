@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "CategorySelectItem" extends = "Group" >
+  <script type="text/brightscript" uri="pkg:/components/screens/category_select_item.brs" />
+  <interface> 
+    <field id = "itemContent" type = "node" onChange = "showcontent"/>
+    <field id = "focusPercent" type = "float" onChange = "showcontent"/> 
+    <field id = "rowFocusPercent" type = "float" onChange = "showcontent"/>
+  </interface>
+  <children >
+    <Poster 
+      id = "itemPoster" 
+      translation = "[10, 10]" 
+      width = "1997"
+      height = "1123" 
+      scaleRotateCenter = "[ 256.0, 144.0 ]" >
+    </Poster>
+  </children>
+</component>

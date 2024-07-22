@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "content_select_screen" extends = "Group" initialFocus = "ContentPosterGrid" >
+  <script type = "text/brightscript" uri="pkg:/components/screens/content_select_screen.brs" />
+  <interface>
+    <field id="contenturi" type="uri" />
+    <field id="content_selected" type="assocarray" alias="ContentPosterGrid.itemSelected"/>
+  </interface>
+  <children>
+    <PosterGrid
+      id="ContentPosterGrid"
+      translation="[130, 160]"
+      basePosterSize="[512 ,288]"
+      itemSpacing="[20,20]"
+      caption1NumLines="1"
+      numColumns="3"
+      numRows="5" >
+    </PosterGrid>
+  </children>
+</component>

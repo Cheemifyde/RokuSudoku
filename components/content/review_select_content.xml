@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "ReviewSelectContent" extends = "ContentNode" >
+  <children >
+   <ContentNode title = "" >
+    <ContentNode 
+      url = "http://192.168.43.99:8080/videos/5star-video.mp4"  
+      description = "This product is great! The product works great for measuring when building and constructing things on my own, it even works on food items like meat!!!!!" 
+      HDPosterUrl = "http://192.168.43.99:8080/images/stars/5.jpg" 
+      SDPosterUrl = "http://192.168.43.99:8080/images/5star.jpg" />
+    <ContentNode 
+      url = "http://192.168.43.99:8080/videos/wishlist-video.mp4" 
+      description = "This product sucks :(. I tried measuring things such as food and things, but when I did it hit me 1/5 stars do not reccomend." 
+      HDPosterUrl = "http://192.168.43.99:8080/images/stars/1.jpg" 
+      SDPosterUrl = "http://192.168.43.99:8080/images/1star.png" />
+    </ContentNode>
+  </children>
+</component>

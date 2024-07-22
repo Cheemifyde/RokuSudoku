@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<component name = "CategorySelectContent" extends = "ContentNode" >
+  <children >
+   <ContentNode title = "" >
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/tools-thumbnail.png"  
+      description = "ToolsSelectContent" />
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/appliances-thumbnail.png" 
+      description = "AppliancesSelectContent" />
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/toys-thumbnail.png" 
+      description = "ToysSelectContent" />
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/games-thumbnail.png" 
+      description = "GamesSelectContent" />
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/clothes-thumbnail.png" 
+      description = "ClothesSelectContent" />
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/accessories-thumbnail.png" 
+      description = "AccessoriesSelectContent" />
+    <ContentNode 
+      HDPosterUrl = "http://192.168.43.99:8080/images/electronics-thumbnail.png" 
+      description = "ElectronicsSelectContent" />
+    </ContentNode>
+  </children>
+</component>

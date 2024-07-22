@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="wishlist_screen" extends="Group">
+  <interface>
+    <field id="wishlist_finished" type="string" alwaysnotify = "true" alias = "wishlist_video.state"  />
+    <field id="content" type="node" alwaysnotify="true" onChange="OnContentChange" />
+    <field id="wish_selected" type="assocarray" alias="wish_content_grid.itemSelected"/>
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/screens/wishlist_screen.brs" />
+  <children>
+   <Video
+        id="wishlist_video"
+        visible="false"
+        translation="[0,0]"
+        width="1920"
+        height="1080"
+        enableUI = "false" />
+   <PosterGrid
+      id="wish_content_grid"
+      translation="[130, 160]"
+      basePosterSize="[512 ,288]"
+      itemSpacing="[20,20]"
+      caption1NumLines="1"
+      numColumns="3"
+      numRows="5" >
+   </PosterGrid>
+  </children>
+</component>
